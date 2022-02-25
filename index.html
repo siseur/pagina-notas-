@@ -1,0 +1,396 @@
+<html>
+	<head>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:yellow;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:green;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+		 <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Contabilidad</a>
+					<ul>
+						<li><a href="">Decimo B</a>
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="/../10b/bres.php">Ingresar Estudiante</a></li>
+											<li><a href="10b/notas1.php">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+						 </li>
+
+
+						<li><a href="">Decimo C</a>
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+						<li><a href="">Undecimo B</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+						<li><a href="">Unecimo C</a>
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+							
+					</li>
+				</ul>
+			</li>
+
+
+			<li><a href="">Tecnologí e Informática</a>
+					<ul>
+						<li><a href="">Noveno A</a>
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="9a/nombres.php">Ingresar Estudiante</a></li>
+											<li><a href="9a/listar.php">Listar notas</a></li>
+											<li><a href="9a/ver_curso.php">Ver boletin</a></li>
+
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+						 </li>
+
+
+						<li><a href="">Noveno B </a>
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="9b/nombres.php">Ingresar Estudiante</a></li>
+											<li><a href="9b/listar.php">Listar Notas</a></li>
+											<li><a href="9b/Ver boletin">Listar Notas</a></li>
+
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+						<li><a href="">Noveno C</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+								<li><a href="">Décimo A</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+
+							<li><a href="">Decimo B</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+								<li><a href="">Decimo C</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+
+						<li><a href="">Undecimo A</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+						<li><a href="">Undecimo B</a>
+
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+
+						<li><a href="">Undecimo C</a>
+							<ul>
+								<li><a href="">Primer Periodo</a>
+										<ul>
+											<li><a href="">Ingresar Estudiante</a></li>
+											<li><a href="">Ingresar Notas</a></li>
+										</ul>
+								</li>
+								 <li><a href="">Segundo Periodo</a>
+										<ul>
+									        <li><a href="">Ingresar Notas</a></li>
+									        <li><a href="">Listar Notas</a></li>
+										</ul>
+								 </li>
+								<li><a href="">Tercer Periodo</a>
+							         	<ul>
+									       <li><a href="">Ingresar Notas</a></li>
+									       <li><a href="">Listar Notas</a></li>
+									    </ul>
+								 </li>
+							</ul>
+
+						</li>
+							
+					</li>
+				</ul>
+			</li>
+				    <li><a href="">Contacto</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
